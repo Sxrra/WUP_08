@@ -93,3 +93,18 @@ summary.lm(simp)
 ## this one is valid.
 
 
+
+
+
+```{r}
+simp <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+
+
+## this one is good.
+
+
