@@ -108,3 +108,23 @@ summary.lm(simp)
 ## this one is good.
 
 
+
+
+
+```{r}
+simp <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+
+## NO
+
+
+
+# The overall best model that I found that was better than the first model(Neck) was the model (HEADLEN). 
+
+
+
+
